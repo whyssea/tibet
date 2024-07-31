@@ -10,6 +10,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "ant-design-vue": "^4.2.3",
     "vue": "^3.4.31"
   },
   "devDependencies": {
@@ -25,6 +26,7 @@
     "prettier": "^3.3.3",
     "typescript": "^5.2.2",
     "typescript-eslint": "^7.16.1",
+    "unplugin-vue-components": "^0.27.3",
     "vite": "^5.3.4",
     "vite-tsconfig-paths": "^4.3.2",
     "vue-tsc": "^2.0.24"
