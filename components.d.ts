@@ -7,6 +7,7 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    About: typeof import('./src/components/About.vue')['default']
     AButton: typeof import('ant-design-vue/es')['Button']
     AConfigProvider: typeof import('ant-design-vue/es')['ConfigProvider']
     ADatePicker: typeof import('ant-design-vue/es')['DatePicker']
@@ -16,7 +17,9 @@ declare module 'vue' {
     ASelect: typeof import('ant-design-vue/es')['Select']
     ATypographyLink: typeof import('ant-design-vue/es')['TypographyLink']
     ATypographyTitle: typeof import('ant-design-vue/es')['TypographyTitle']
+    BlockTitle: typeof import('./src/components/BlockTitle.vue')['default']
     Header: typeof import('./src/components/Header.vue')['default']
+    PageTemplate: typeof import('./src/components/PageTemplate.vue')['default']
     Preview: typeof import('./src/components/Preview.vue')['default']
     PreviewForm: typeof import('./src/components/PreviewForm.vue')['default']
   }

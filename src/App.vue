@@ -4,14 +4,18 @@ import AntdProvider from 'providers/AntdProvider.vue'
 
 <template>
   <AntdProvider>
-    <div class="container">
-      <Preview />
-    </div>
+    <a-flex vertical align="center">
+      <div class="container">
+        <Preview />
+      </div>
+      <About />
+    </a-flex>
   </AntdProvider>
 </template>
 
 <style scoped>
 .container {
+  width: 100%;
   background-image: url('assets/images/header-bg.png');
   background-repeat: no-repeat;
   background-size: cover;

@@ -12,6 +12,7 @@ import ru from 'ant-design-vue/locale/ru_RU'
         colorLinkActive: 'rgba(242, 190, 34, 1)',
         colorLink: 'white',
         fontFamily: 'Inter, system-ui, Avenir, Helvetica, Arial, sans-serif',
+        fontSizeHeading2: 32,
       },
       components: {
         Button: {
