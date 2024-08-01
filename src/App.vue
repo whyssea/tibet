@@ -10,6 +10,7 @@ import AntdProvider from 'providers/AntdProvider.vue'
       </div>
       <About />
       <Programs />
+      <PopularRoutes />
     </a-flex>
   </AntdProvider>
 </template>

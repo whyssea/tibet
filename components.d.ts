@@ -9,6 +9,8 @@ declare module 'vue' {
   export interface GlobalComponents {
     About: typeof import('./src/components/About.vue')['default']
     AButton: typeof import('ant-design-vue/es')['Button']
+    ACard: typeof import('ant-design-vue/es')['Card']
+    ACardMeta: typeof import('ant-design-vue/es')['CardMeta']
     AConfigProvider: typeof import('ant-design-vue/es')['ConfigProvider']
     ADatePicker: typeof import('ant-design-vue/es')['DatePicker']
     AFlex: typeof import('ant-design-vue/es')['Flex']
@@ -20,6 +22,7 @@ declare module 'vue' {
     BlockTitle: typeof import('./src/components/BlockTitle.vue')['default']
     Header: typeof import('./src/components/Header.vue')['default']
     PageTemplate: typeof import('./src/components/PageTemplate.vue')['default']
+    PopularRoutes: typeof import('./src/components/PopularRoutes.vue')['default']
     Preview: typeof import('./src/components/Preview.vue')['default']
     PreviewForm: typeof import('./src/components/PreviewForm.vue')['default']
     Programs: typeof import('./src/components/Programs.vue')['default']
