@@ -9,6 +9,7 @@ import AntdProvider from 'providers/AntdProvider.vue'
         <Preview />
       </div>
       <About />
+      <Programs />
     </a-flex>
   </AntdProvider>
 </template>

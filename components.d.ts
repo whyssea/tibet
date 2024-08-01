@@ -22,5 +22,6 @@ declare module 'vue' {
     PageTemplate: typeof import('./src/components/PageTemplate.vue')['default']
     Preview: typeof import('./src/components/Preview.vue')['default']
     PreviewForm: typeof import('./src/components/PreviewForm.vue')['default']
+    Programs: typeof import('./src/components/Programs.vue')['default']
   }
 }

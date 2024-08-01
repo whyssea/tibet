@@ -7,8 +7,9 @@ const props = defineProps<{
 <template>
   <a-flex
     :style="{
-      margin: '80px 0 100px 0',
+      padding: '80px 0 100px 0',
       background: props.gray ? 'rgba(243, 245, 244, 1)' : 'white',
+      width: '100%',
     }"
   >
     <slot></slot>

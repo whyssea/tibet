@@ -5,7 +5,7 @@ import vid2 from 'assets/images/vid/vid2.png'
 
 <template>
   <PageTemplate>
-    <a-flex gap="120" style="width: 1180px">
+    <a-flex gap="120" style="width: 1180px; margin: 0 auto">
       <div>
         <img :src="vid2" alt="Видео 2" />
         <img :src="vid1" alt="Видео 1" class="about__video" />
