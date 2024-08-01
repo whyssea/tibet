@@ -11,6 +11,7 @@ import AntdProvider from 'providers/AntdProvider.vue'
       <About />
       <Programs />
       <PopularRoutes />
+      <Blog />
     </a-flex>
   </AntdProvider>
 </template>

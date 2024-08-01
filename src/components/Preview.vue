@@ -4,7 +4,7 @@
   <a-flex vertical class="preview__container" justify="space-between">
     <Header />
     <div>
-      <a-typography-title level="1" class="preview__title">{{
+      <a-typography-title :level="1" class="preview__title">{{
         `Насладись прогулкой в горах
 с командой единомышленников`.toUpperCase()
       }}</a-typography-title>
