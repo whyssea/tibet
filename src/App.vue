@@ -13,6 +13,7 @@ import AntdProvider from 'providers/AntdProvider.vue'
       <PopularRoutes />
       <Blog />
       <Gallery />
+      <Contacts />
     </a-flex>
   </AntdProvider>
 </template>
