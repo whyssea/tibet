@@ -40,23 +40,15 @@ const participants = ref<SelectProps['options']>([
 <template>
   <a-form class="preview-form__container">
     <a-form-item name="location" class="preview-form__item">
-      <a-select
-        :options="locations"
-        placeholder="Локация для тура"
-        class="preview-form__inner-item"
-      />
+      <a-select :options="locations" placeholder="Локация для тура" />
       <p>выберите из списка</p>
     </a-form-item>
     <a-form-item name="date" class="preview-form__item">
-      <a-date-picker class="preview-form__inner-item" />
+      <a-date-picker class="preview-form__date-picker" />
       <p>укажите диапазон</p>
     </a-form-item>
     <a-form-item name="people" class="preview-form__item">
-      <a-select
-        :options="participants"
-        placeholder="Локация для тура"
-        class="preview-form__inner-item"
-      />
+      <a-select :options="participants" placeholder="Локация для тура" />
       <p>минимум 4 человека</p>
     </a-form-item>
     <a-form-item class="preview-form__item">
@@ -72,16 +64,16 @@ const participants = ref<SelectProps['options']>([
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   display: flex;
-  justify-items: stretch;
   gap: 24px;
   padding: 40px;
 }
 .preview-form__item {
   margin-bottom: 0;
   color: white;
+  flex: 1;
 }
-.preview-form__inner-item {
+.preview-form__date-picker {
   color: white;
-  width: 270px;
+  width: 100%;
 }
 </style>
