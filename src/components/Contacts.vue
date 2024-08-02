@@ -1,7 +1,14 @@
 <script setup lang="ts"></script>
 
 <template>
-  <PageTemplate>
+  <PageTemplate
+    style="
+      padding: 0;
+      margin-bottom: -100px;
+      z-index: 1;
+      background-color: transparent;
+    "
+  >
     <a-flex class="contacts__container" :gap="64">
       <a-flex vertical>
         <p class="contacts__pre">актуально</p>
@@ -45,6 +52,7 @@
   box-shadow: 0 0 15px 0 rgba(24, 18, 30, 0.12);
   color: rgba(24, 18, 30, 1);
   border-radius: 6px;
+  background-color: white;
 }
 .contacts__pre {
   color: rgba(242, 190, 34, 1);

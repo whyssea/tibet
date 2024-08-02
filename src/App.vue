@@ -14,6 +14,7 @@ import AntdProvider from 'providers/AntdProvider.vue'
       <Blog />
       <Gallery />
       <Contacts />
+      <Footer />
     </a-flex>
   </AntdProvider>
 </template>

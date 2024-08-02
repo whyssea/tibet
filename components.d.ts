@@ -25,6 +25,7 @@ declare module 'vue' {
     BlockTitle: typeof import('./src/components/BlockTitle.vue')['default']
     Blog: typeof import('./src/components/Blog.vue')['default']
     Contacts: typeof import('./src/components/Contacts.vue')['default']
+    Footer: typeof import('./src/components/Footer.vue')['default']
     Gallery: typeof import('./src/components/Gallery.vue')['default']
     Header: typeof import('./src/components/Header.vue')['default']
     PageTemplate: typeof import('./src/components/PageTemplate.vue')['default']
