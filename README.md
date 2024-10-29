@@ -1,5 +1,19 @@
-# Vue 3 + TypeScript + Vite
+# Пет-проект РумТибет
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Одностраничный статичный проект туристического агенства. 
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+### Стэк:
+- Vue
+- AntdVue
+- Typescript
+- Eslint 9
+- Pretiter
+- husky
+- lint-staged
+
+### Запуск
+```
+yarn && yarn dev
+```
+
+Ссылка на макет: https://www.figma.com/design/NrPZZU8u1sLytOicIHcIAx/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82?node-id=1-9&node-type=frame&t=Y7pnJ1TYJUKJMXoD-0
